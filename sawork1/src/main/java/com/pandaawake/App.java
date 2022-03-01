@@ -1,5 +1,6 @@
 package com.pandaawake;
 
+import asciiPanel.AsciiPanel;
 
 /**
  * Hello world!
@@ -7,8 +8,10 @@ package com.pandaawake;
  */
 public class App 
 {
-    public static void main( String[] args )
+
+    public void paint(AsciiPanel asciiPanel)
     {
-        System.out.println( "Hello World!" );
+        asciiPanel.write("Hello, world!");
     }
+
 }
